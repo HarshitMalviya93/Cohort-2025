@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    color: black;
+    background-color: #f8f8f8;
+}
+
+header{
+    color: white;
+    background-color: gray;
+    padding: 15px;
+    text-align: center;
+    padding: 15px;
+}
+
+header > h1{
+    background: rgb(38, 38, 38);
+    color: white;
+    font-weight: 700;
+    height: 40px;
+    line-height: 1.5;
+}
+ 
+/* nav bar on top */
+header > nav{
+    word-spacing: 20px;
+    margin: 8px auto;
+}
+
+
+header > nav > a{
+   color: black;
+   text-decoration: none;
+   font-weight: 600; 
+}
+
+/* div for side and main content is hero */
+#hero{
+    display: flex;
+}
+
+
+
+/* sidebar */
+
+#sidebar{
+    width: 30%;
+}
+
+aside{
+    padding: 10px 0 0 10px;
+    line-height: 2.3;
+    width: 20%;
+    
+}
+aside > h2{
+  font-weight: bold; 
+
+}
+aside > .line {
+    border-bottom: 1px dotted rgb(157, 157, 157);
+}
+/* MAin content start */
+h3{
+    text-decoration: dashed;
+    text-align: center;
+    font-weight: bold;
+}
+#maincontent{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: white;
+   
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+
+}
+#img img{
+    height: 500px;
+   width: 30%;
+
+}
+#maincontent > ul > li{
+    line-height: 1.5;
+    margin-left: 10px;
+}
+
+
+h4{
+    font-weight: bold;
+    text-shadow: beige;
+}
+
+.lin{
+    margin-left: 100px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

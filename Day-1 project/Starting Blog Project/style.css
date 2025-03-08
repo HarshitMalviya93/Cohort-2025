@@ -1,0 +1,193 @@
+
+/*
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 1px;
+   
+   
+    background-color: rgb(236, 236, 117);
+}
+h1{
+    text-shadow: 2px 2px 5px gray;
+}
+#maindiv{
+    margin: 20px;
+    box-sizing: border-box;
+    border: 2px groove grey ;
+    border-radius: 10px;
+}
+footer {
+    background-color: rgb(179, 22, 22);
+    color: black;
+    text-align: center;
+    font-size: large;
+    border-width: 10px 10px 10px rgb(190, 57, 57);
+    border-color: brown;
+}
+#imageee{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  
+ 
+}
+#toolbar{
+    text-decoration: aliceblue;
+    text-align: center;
+    border-radius: 10%;
+    color: red;
+    background-color: blue;
+}
+a{
+    color: black;
+    background-color: blue;
+    text-decoration: dashed;
+}
+header {
+    background-color: var(--primary-color);
+    color: rgb(12, 10, 10);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 10px 20px 5px gray;
+  }
+
+*{
+    background-color:rgb(236, 236, 117) ;
+    
+}
+
+
+
+*/
+
+
+
+/* General reset and base styles */
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(236, 236, 117); /* Light background */
+}
+
+/* Header Styling */
+header {
+    background-color: rgb(179, 22, 22);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 10px 20px 5px gray;
+}
+
+/* Toolbar Styling */
+#toolbar {
+    text-align: center;
+    color: red;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+
+#toolbar a {
+    color: black;
+    background-color: blue;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+#toolbar a:hover {
+    background-color: rgb(193, 182, 182);  /* Change background color on hover */
+    color: white;           /* Change text color on hover */
+}
+
+/* Main Container */
+#maindiv {
+    margin: 20px;
+    box-sizing: border-box;
+    border: 2px groove grey;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Image Styling */
+#imageee {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-bottom: 20px;
+}
+
+#imageee img {
+    max-width: 100%;  /* Ensure image scales properly */
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;  /* Add a smooth zoom effect */
+}
+
+#imageee img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Footer Styling */
+footer {
+    background-color: rgb(179, 22, 22);
+    color: white;
+    text-align: center;
+    font-size: large;
+    padding: 20px;
+    border-top: 10px solid rgb(190, 57, 57);
+    margin-top: 20px;
+}
+
+/* Lists and Links */
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+a {
+    color: black;
+    background-color: blue;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; /* Transition for smooth hover effects */
+}
+
+a:hover {
+    background-color: red;
+    color: white; /* Links will change on hover */
+}
+
+/* Add hover effect to all headings */
+h1 {
+    text-shadow: 2px 2px 5px gray;
+    transition: color 0.3s ease;
+}
+
+h1:hover {
+    color: rgb(179, 22, 22);  /* Change color on hover */
+}
+
+/* Background of the page */
+* {
+    background-color: rgb(236, 236, 117); /* Light background */
+}
+
+/* Smooth transition for hover effects */
+a, h1, #toolbar a {
+    transition: all 0.3s ease;
+}
